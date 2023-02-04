@@ -92,3 +92,41 @@ Customize dark theme
     border-radius: 5px;
     padding-inline: 5px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* :checked~.md-ch-heading-content */
+.checkbox input[type="checkbox"] {
+    opacity: 0;
+}
+/* hide the nav that comes after the checkbox, when checkbox is toggled */
+.md-ch-heading-toggle {
+	display: none;
+    width: 100px;
+}
+  
+/* WORKS
+input[type='checkbox']:checked {
+    display: none;
+} */
+
+/* WORKS
+#h1{
+    display: none !important;
+  } */
+
+/* WORKS SAMPLE
+.md-nav__toggle:checked~.md-nav{
+    display: none;
+} */

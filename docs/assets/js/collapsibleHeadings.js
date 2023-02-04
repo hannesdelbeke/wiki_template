@@ -1,12 +1,12 @@
 
-const header_names = ["h2","h3","h4","h5","h6"]
+const heading_names = ["h1","h2","h3","h4","h5","h6"]
 
 var j;
-for (j = 0; j < header_names.length; j++) {
-  let coll = document.getElementsByTagName(header_names[j]);
+for (j = 0; j < heading_names.length; j++) {
+  let coll = document.getElementsByTagName(heading_names[j]);
 
   let i;
-  // for every header
+  // for every heading
   for (i = 0; i < coll.length; i++) {
 
     // on click we run function:

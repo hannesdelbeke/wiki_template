@@ -1,0 +1,4 @@
+/* hide the nav that comes after the checkbox, when checkbox is toggled */
+.md-heading-toggle:checked~.md-ch-heading-content{
+	display: initial; /* reset to default value */
+}
