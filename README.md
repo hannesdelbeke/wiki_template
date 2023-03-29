@@ -1,8 +1,14 @@
+This template allows you to create a site from your obsidian notes. (or any other markdown files)
+
+## Demo
+
 See this template in action [here](https://hannesdelbeke.github.io/wiki_template/)
 
 the following sites also use this template:
 - https://hannesdelbeke.github.io/wiki/
 - https://techartorg.github.io/TAO-Wiki/
+
+## Notes
 
 TODO step by step guide on how to setup.
 which settings to configure in the config file.
