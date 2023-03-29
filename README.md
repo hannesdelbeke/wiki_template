@@ -27,12 +27,21 @@ TODO:
 - [x] table of content (page)
 - [x] various fancy markdown syntax, e.g. LaTeX, mermaid, etc.
 - [x] configure landing page / start page. index.md file in notes
+
 ### TODO
 - [ ] hashtag search click
 - [ ] preview [hover link](https://github.com/ObsidianPublisher/tooltips-internal-link)
 - [ ] submodule support for actions **TODO**
 - [ ] currently action doesn't work if no image or notes folder
 - [ ] handle limitation. do not make a folder in notes with the reponame
+
+### Tech
+- we use mkdocs to auto convert markdown files to HTML
+- we use github actions to automate the build process.
+- any commit to the main branch triggers a copy of the notes from main to mkdocs branch
+- any commit in the mkdocs branch triggers a mkdocs build, to auto convert the markdown to html, using the settings in mkdocs.yml
+- html output is saved in the gh-pages branch. this is where all the HTML stuff like css files etc live. (right now the build HTML files aren't actually committed)
+- the files from the gh-pages branch are then automatically uploaded to github-pages by the github action.
 
 ## contribute
 TODO local run site instructions.
