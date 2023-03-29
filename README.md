@@ -1,4 +1,4 @@
-This template allows you to create a site from your obsidian notes. (or any other markdown files)
+This template allows you to create a site from your [Obsidian](https://obsidian.md/) notes, without any coding.
 
 ## Demo
 
