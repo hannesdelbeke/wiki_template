@@ -47,5 +47,6 @@ TODO:
 TODO local run site instructions.
 
 ## license
-currently AGPL, and has to confirm to this when redistributed. (easiest is to just keep AGPL)
-This is because some python hooks were used from [obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template)
+If you use this template, you need to use the AGPL license for any code involved.
+However the AGPL license does not apply to your notes! 
+Currently AGPL because some AGPL python hooks were used from [obsidian-mkdocs-publisher-template](https://github.com/ObsidianPublisher/obsidian-mkdocs-publisher-template)
